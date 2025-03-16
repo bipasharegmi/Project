@@ -1,0 +1,32 @@
+.sidebar-link {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .sidebar-link:hover {
+    color: green !important;
+    transform: scale(1.05);
+  }
+  
+  .main-content {
+    background-image: url('/images/back.avif'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    flex: 1;
+    padding: 20px;
+  }
+
+  .dashboard-container {
+    width: 100%;
+    min-height: 100vh;
+  }
+  .main-content h4 {
+    color: #ffffff; /* Pure white */
+    font-weight: bold;
+    size: 0cqb;
+  }
+  
+  
+
+  

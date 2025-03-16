@@ -1,0 +1,61 @@
+/* Background Image */
+.home-container {
+    height: 100vh;
+    background: url('back.avif') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Styling for Cards */
+.custom-card {
+    width: 250px;
+    background: grey;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    padding: 20px;
+}
+
+/* Card Title (Like "Clothes", "Categories") */
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:white;
+}
+
+/* Divider Styling */
+.card-divider {
+    width: 100%;
+    border-top: 2px solid #ddd;
+    margin: 10px 0;
+}
+
+/* "Total:" Label Styling */
+.card-label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* Value Number Styling */
+.card-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Hover Effect */
+.custom-card:hover {
+    transform: scale(1.05);
+}
+
+/* Adjust spacing */
+.mx-3 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
